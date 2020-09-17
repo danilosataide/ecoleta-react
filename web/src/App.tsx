@@ -8,12 +8,8 @@ import Header from './Header';
 function App() {
   return (
     <div>
-      <Header />
-      <Header />
-      <Header />
-      <Header />
-      <Header />
-      
+      <Header title="Ecoldeta" />
+
       <h1>conteúdo da aplicação</h1> 
     </div>
   );
