@@ -136,7 +136,7 @@ const CreatePoint = () => {
         };
 
         await api.post('points', data);
-        alert('Ponto de coleta cadastrado!');
+        alert('Ponto de coleta cadastrado!');        
         history.push('/');
     }
 
@@ -260,7 +260,6 @@ const CreatePoint = () => {
                     Cadastrar ponto de coleta
                 </button>
             </form>
-
         </div>
     );
 };
